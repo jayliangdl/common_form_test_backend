@@ -1,2 +1,3 @@
-# UploadFileToGit
-本项目准备用于集成coze，将coze中通过agent生成的代码文件上传到git项目中。由于coze生成的代码不能保持，只能尝试通过提供给它plugin的方法，在vercel部署一个serverless接口，也就是本项目的内容，接口会以文件内容、git上传路径等作为入参，实现代码上传到git的功能。
+# common_form_test_backend
+# https://github.com/jayliangdl/common_form_test_backend.git
+另外一个前端项目的配套后端测试项目（common_form_frontend-通用表单的前端，https://github.com/jayliangdl/common_form_frontend.git)，用于为该前端项目提供后端接口等
