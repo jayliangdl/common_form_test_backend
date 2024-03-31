@@ -4,6 +4,7 @@ const app = express();
 const port = 3000;
 
 // 导入你的模块
+const hello = require('./api/hello');
 const location = require('./api/location');
 const initApp = require('./api/initApp');
 const submit = require('./api/submit');
@@ -20,6 +21,7 @@ app.use(cors({
 app.use(express.json());
 
 // 定义一个路由来处理POST请求
+app.post('/hello', hello);
 app.post('/location', location);
 app.post('/initApp', initApp);
 app.post('/submit', submit);
